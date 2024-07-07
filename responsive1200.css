@@ -1,0 +1,9 @@
+@media screen and (min-width: 1200px) {
+  .filter-container .filter-elements {
+    width: 1150px;
+  }
+  /* ------------footer--------- */
+  .footer-part {
+    width: 1190px;
+  }
+}
