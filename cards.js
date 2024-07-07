@@ -746,8 +746,7 @@ document.querySelector(".login").addEventListener("click", () => {
     document.querySelector(".cards-container").style.display = "flex";
     document.getElementById("pagination-controls").style.display = "flex";
     document.querySelector(".input-elements").style.display = "flex";
-    document.querySelector(".filter-elements").style.backgroundColor =
-      "#7373ec";
+    document.querySelector(".filter-elements").style.backgroundColor = "yellow";
   }
 });
 document.querySelector(".back-button").addEventListener("click", (e) => {
@@ -758,8 +757,9 @@ document.querySelector(".back-button").addEventListener("click", (e) => {
   document.querySelector(".input-elements").style.display = "flex";
   main.style.height = "unset";
   if (innerWidth < 1024) {
-    document.querySelector(".filter-elements").style.backgroundColor =
-      "#7373ec";
+    document.querySelector(".filter-elements").style.backgroundColor = "black";
+  } else {
+    document.querySelector(".filter-elements").style.backgroundColor = "yellow";
   }
 });
 
@@ -776,7 +776,6 @@ document.querySelector(".login-in-mobile").addEventListener("click", () => {
     document.querySelector(".cards-container").style.display = "flex";
     document.getElementById("pagination-controls").style.display = "flex";
     document.querySelector(".input-elements").style.display = "flex";
-    document.querySelector(".filter-elements").style.backgroundColor =
-      "#7373ec";
+    document.querySelector(".filter-elements").style.backgroundColor = "black";
   }
 });
